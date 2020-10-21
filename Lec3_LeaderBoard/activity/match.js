@@ -77,7 +77,6 @@ function createLeaderBoard(teamName , batsmanName , runs, balls , fours , sixes)
         Sixes : sixes
     }
     leaderboard.push(entry);
-
 }
 
 

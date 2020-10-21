@@ -27,9 +27,5 @@ function parseData(html){
 }
 
 
-
-
-
-
 // function getAllMatches is exported
 module.exports = getAllMatches;
