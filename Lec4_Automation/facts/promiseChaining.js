@@ -1,8 +1,6 @@
 let fs = require("fs");
 
-       
 let pendingPromise = fs.promises.readFile("./f1.txt");
-
 // then bhi ek promise deta hai
 
 pendingPromise.then(function(data){
@@ -26,4 +24,3 @@ pendingPromise.then(function(data){
     console.log("Inside catch !!!");
     console.log(error); 
 })
-
